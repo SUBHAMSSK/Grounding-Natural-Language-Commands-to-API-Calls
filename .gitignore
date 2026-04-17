@@ -1,0 +1,18 @@
+# Python environments
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Model weights
+model/
+
+# macOS
+.DS_Store
+
+# Datasets (Uncomment if dataset shouldn't be pushed)
+# dataset.jsonl
+
+# IDEs
+.idea/
+.vscode/
