@@ -1,5 +1,7 @@
-torch
 transformers
 datasets
-tqdm
-scikit-learn
+torch
+google-generativeai
+sentence-transformers
+gradio
+pydantic

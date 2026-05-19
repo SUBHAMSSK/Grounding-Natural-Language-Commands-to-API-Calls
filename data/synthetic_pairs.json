@@ -1,0 +1,3670 @@
+[
+  {
+    "command": "Schedule a Project Sync with Charlie on next week at 10:00 AM",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "Project Sync",
+        "attendees": [
+          "Charlie"
+        ],
+        "date": "next week",
+        "time": "10:00 AM",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Send an email to Frank about Welcome",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "frank@example.com",
+        "subject": "Welcome",
+        "body": "Hi Frank, here is the information about Welcome.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Find xlsx files related to presentation",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "presentation",
+        "file_type": "xlsx",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Create a low priority task for Charlie to deploy app",
+    "target": {
+      "function": "create_task",
+      "args": {
+        "title": "Deploy app",
+        "assignee": "Charlie",
+        "due_date": "next week",
+        "priority": "low"
+      }
+    }
+  },
+  {
+    "command": "Find xlsx files related to budget",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "budget",
+        "file_type": "xlsx",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Schedule a Project Sync with Frank on Thursday at 1:00 PM",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "Project Sync",
+        "attendees": [
+          "Frank"
+        ],
+        "date": "Thursday",
+        "time": "1:00 PM",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Send an email to Bob about Update",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "bob@example.com",
+        "subject": "Update",
+        "body": "Hi Bob, here is the information about Update.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Schedule a Brainstorming with Charlie on next week at 1:00 PM",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "Brainstorming",
+        "attendees": [
+          "Charlie"
+        ],
+        "date": "next week",
+        "time": "1:00 PM",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Schedule a Client Call with Bob on Friday at 10:00 AM",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "Client Call",
+        "attendees": [
+          "Bob"
+        ],
+        "date": "Friday",
+        "time": "10:00 AM",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Send an email to Bob about Update",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "bob@example.com",
+        "subject": "Update",
+        "body": "Hi Bob, here is the information about Update.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Schedule a Project Sync with Eve on Monday at 9:00 AM",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "Project Sync",
+        "attendees": [
+          "Eve"
+        ],
+        "date": "Monday",
+        "time": "9:00 AM",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Remind me to submit report Tuesday",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "submit report",
+        "datetime": "Tuesday",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Create a low priority task for Charlie to deploy app",
+    "target": {
+      "function": "create_task",
+      "args": {
+        "title": "Deploy app",
+        "assignee": "Charlie",
+        "due_date": "next week",
+        "priority": "low"
+      }
+    }
+  },
+  {
+    "command": "Find docx files related to invoice",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "invoice",
+        "file_type": "docx",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Schedule a 1:1 Review with Eve on Friday at 3:30 PM",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "1:1 Review",
+        "attendees": [
+          "Eve"
+        ],
+        "date": "Friday",
+        "time": "3:30 PM",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Find xlsx files related to presentation",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "presentation",
+        "file_type": "xlsx",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Remind me to buy milk Wednesday",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "buy milk",
+        "datetime": "Wednesday",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Remind me to submit report Tuesday",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "submit report",
+        "datetime": "Tuesday",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Find docx files related to presentation",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "presentation",
+        "file_type": "docx",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Send an email to Frank about Invoice",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "frank@example.com",
+        "subject": "Invoice",
+        "body": "Hi Frank, here is the information about Invoice.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Remind me to buy milk Wednesday",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "buy milk",
+        "datetime": "Wednesday",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Schedule a Team Standup with David on tomorrow at 9:00 AM",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "Team Standup",
+        "attendees": [
+          "David"
+        ],
+        "date": "tomorrow",
+        "time": "9:00 AM",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Schedule a Team Standup with Alice on Wednesday at 10:00 AM",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "Team Standup",
+        "attendees": [
+          "Alice"
+        ],
+        "date": "Wednesday",
+        "time": "10:00 AM",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Send an email to David about Report",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "david@example.com",
+        "subject": "Report",
+        "body": "Hi David, here is the information about Report.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Remind me to call mom Thursday",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "call mom",
+        "datetime": "Thursday",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Remind me to buy milk next week",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "buy milk",
+        "datetime": "next week",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Find docx files related to budget",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "budget",
+        "file_type": "docx",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Remind me to call mom tomorrow",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "call mom",
+        "datetime": "tomorrow",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Schedule a 1:1 Review with David on Monday at noon",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "1:1 Review",
+        "attendees": [
+          "David"
+        ],
+        "date": "Monday",
+        "time": "noon",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Find pdf files related to budget",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "budget",
+        "file_type": "pdf",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Find docx files related to invoice",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "invoice",
+        "file_type": "docx",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Schedule a Team Standup with Eve on Friday at noon",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "Team Standup",
+        "attendees": [
+          "Eve"
+        ],
+        "date": "Friday",
+        "time": "noon",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Remind me to pay bills tomorrow",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "pay bills",
+        "datetime": "tomorrow",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Remind me to submit report Thursday",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "submit report",
+        "datetime": "Thursday",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Schedule a Team Standup with Charlie on Wednesday at 3:30 PM",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "Team Standup",
+        "attendees": [
+          "Charlie"
+        ],
+        "date": "Wednesday",
+        "time": "3:30 PM",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Create a low priority task for David to review pr",
+    "target": {
+      "function": "create_task",
+      "args": {
+        "title": "Review PR",
+        "assignee": "David",
+        "due_date": "next week",
+        "priority": "low"
+      }
+    }
+  },
+  {
+    "command": "Find docx files related to budget",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "budget",
+        "file_type": "docx",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Find xlsx files related to invoice",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "invoice",
+        "file_type": "xlsx",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Create a medium priority task for Bob to review pr",
+    "target": {
+      "function": "create_task",
+      "args": {
+        "title": "Review PR",
+        "assignee": "Bob",
+        "due_date": "next week",
+        "priority": "medium"
+      }
+    }
+  },
+  {
+    "command": "Remind me to buy milk tomorrow",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "buy milk",
+        "datetime": "tomorrow",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Send an email to Eve about Welcome",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "eve@example.com",
+        "subject": "Welcome",
+        "body": "Hi Eve, here is the information about Welcome.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Remind me to call mom Friday",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "call mom",
+        "datetime": "Friday",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Schedule a Project Sync with Frank on next week at 10:00 AM",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "Project Sync",
+        "attendees": [
+          "Frank"
+        ],
+        "date": "next week",
+        "time": "10:00 AM",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Send an email to Alice about Update",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "alice@example.com",
+        "subject": "Update",
+        "body": "Hi Alice, here is the information about Update.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Create a low priority task for Eve to deploy app",
+    "target": {
+      "function": "create_task",
+      "args": {
+        "title": "Deploy app",
+        "assignee": "Eve",
+        "due_date": "next week",
+        "priority": "low"
+      }
+    }
+  },
+  {
+    "command": "Create a high priority task for Frank to review pr",
+    "target": {
+      "function": "create_task",
+      "args": {
+        "title": "Review PR",
+        "assignee": "Frank",
+        "due_date": "next week",
+        "priority": "high"
+      }
+    }
+  },
+  {
+    "command": "Schedule a Brainstorming with David on next week at 9:00 AM",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "Brainstorming",
+        "attendees": [
+          "David"
+        ],
+        "date": "next week",
+        "time": "9:00 AM",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Send an email to Charlie about Report",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "charlie@example.com",
+        "subject": "Report",
+        "body": "Hi Charlie, here is the information about Report.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Find pdf files related to budget",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "budget",
+        "file_type": "pdf",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Find docx files related to report",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "report",
+        "file_type": "docx",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Remind me to pay bills Thursday",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "pay bills",
+        "datetime": "Thursday",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Schedule a Client Call with Eve on next week at 9:00 AM",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "Client Call",
+        "attendees": [
+          "Eve"
+        ],
+        "date": "next week",
+        "time": "9:00 AM",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Send an email to David about Welcome",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "david@example.com",
+        "subject": "Welcome",
+        "body": "Hi David, here is the information about Welcome.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Remind me to pay bills Tuesday",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "pay bills",
+        "datetime": "Tuesday",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Remind me to submit report Thursday",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "submit report",
+        "datetime": "Thursday",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Find xlsx files related to budget",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "budget",
+        "file_type": "xlsx",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Send an email to Alice about Meeting Notes",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "alice@example.com",
+        "subject": "Meeting Notes",
+        "body": "Hi Alice, here is the information about Meeting Notes.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Send an email to Charlie about Update",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "charlie@example.com",
+        "subject": "Update",
+        "body": "Hi Charlie, here is the information about Update.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Remind me to submit report Wednesday",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "submit report",
+        "datetime": "Wednesday",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Schedule a Client Call with Eve on Monday at noon",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "Client Call",
+        "attendees": [
+          "Eve"
+        ],
+        "date": "Monday",
+        "time": "noon",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Find pdf files related to presentation",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "presentation",
+        "file_type": "pdf",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Send an email to Bob about Update",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "bob@example.com",
+        "subject": "Update",
+        "body": "Hi Bob, here is the information about Update.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Remind me to pay bills Wednesday",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "pay bills",
+        "datetime": "Wednesday",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Find xlsx files related to budget",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "budget",
+        "file_type": "xlsx",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Create a low priority task for David to write docs",
+    "target": {
+      "function": "create_task",
+      "args": {
+        "title": "Write docs",
+        "assignee": "David",
+        "due_date": "next week",
+        "priority": "low"
+      }
+    }
+  },
+  {
+    "command": "Schedule a 1:1 Review with David on Thursday at 1:00 PM",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "1:1 Review",
+        "attendees": [
+          "David"
+        ],
+        "date": "Thursday",
+        "time": "1:00 PM",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Find pdf files related to presentation",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "presentation",
+        "file_type": "pdf",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Create a high priority task for David to fix bug",
+    "target": {
+      "function": "create_task",
+      "args": {
+        "title": "Fix bug",
+        "assignee": "David",
+        "due_date": "next week",
+        "priority": "high"
+      }
+    }
+  },
+  {
+    "command": "Remind me to call mom Tuesday",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "call mom",
+        "datetime": "Tuesday",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Remind me to buy milk Friday",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "buy milk",
+        "datetime": "Friday",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Find pdf files related to presentation",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "presentation",
+        "file_type": "pdf",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Find pdf files related to report",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "report",
+        "file_type": "pdf",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Find pdf files related to invoice",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "invoice",
+        "file_type": "pdf",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Find pdf files related to presentation",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "presentation",
+        "file_type": "pdf",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Send an email to David about Report",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "david@example.com",
+        "subject": "Report",
+        "body": "Hi David, here is the information about Report.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Schedule a Project Sync with Frank on Tuesday at 1:00 PM",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "Project Sync",
+        "attendees": [
+          "Frank"
+        ],
+        "date": "Tuesday",
+        "time": "1:00 PM",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Schedule a Project Sync with Bob on Tuesday at 3:30 PM",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "Project Sync",
+        "attendees": [
+          "Bob"
+        ],
+        "date": "Tuesday",
+        "time": "3:30 PM",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Send an email to Charlie about Welcome",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "charlie@example.com",
+        "subject": "Welcome",
+        "body": "Hi Charlie, here is the information about Welcome.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Schedule a 1:1 Review with Eve on Tuesday at noon",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "1:1 Review",
+        "attendees": [
+          "Eve"
+        ],
+        "date": "Tuesday",
+        "time": "noon",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Remind me to pay bills Wednesday",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "pay bills",
+        "datetime": "Wednesday",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Create a medium priority task for Alice to deploy app",
+    "target": {
+      "function": "create_task",
+      "args": {
+        "title": "Deploy app",
+        "assignee": "Alice",
+        "due_date": "next week",
+        "priority": "medium"
+      }
+    }
+  },
+  {
+    "command": "Send an email to David about Welcome",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "david@example.com",
+        "subject": "Welcome",
+        "body": "Hi David, here is the information about Welcome.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Schedule a Team Standup with David on Tuesday at 3:30 PM",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "Team Standup",
+        "attendees": [
+          "David"
+        ],
+        "date": "Tuesday",
+        "time": "3:30 PM",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Schedule a Project Sync with Bob on Thursday at noon",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "Project Sync",
+        "attendees": [
+          "Bob"
+        ],
+        "date": "Thursday",
+        "time": "noon",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Send an email to Frank about Meeting Notes",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "frank@example.com",
+        "subject": "Meeting Notes",
+        "body": "Hi Frank, here is the information about Meeting Notes.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Schedule a Client Call with Frank on Monday at 1:00 PM",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "Client Call",
+        "attendees": [
+          "Frank"
+        ],
+        "date": "Monday",
+        "time": "1:00 PM",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Remind me to call mom Thursday",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "call mom",
+        "datetime": "Thursday",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Create a medium priority task for Bob to write docs",
+    "target": {
+      "function": "create_task",
+      "args": {
+        "title": "Write docs",
+        "assignee": "Bob",
+        "due_date": "next week",
+        "priority": "medium"
+      }
+    }
+  },
+  {
+    "command": "Send an email to Frank about Update",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "frank@example.com",
+        "subject": "Update",
+        "body": "Hi Frank, here is the information about Update.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Remind me to call mom Thursday",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "call mom",
+        "datetime": "Thursday",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Send an email to David about Meeting Notes",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "david@example.com",
+        "subject": "Meeting Notes",
+        "body": "Hi David, here is the information about Meeting Notes.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Schedule a 1:1 Review with Bob on Tuesday at 1:00 PM",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "1:1 Review",
+        "attendees": [
+          "Bob"
+        ],
+        "date": "Tuesday",
+        "time": "1:00 PM",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Find docx files related to budget",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "budget",
+        "file_type": "docx",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Remind me to buy milk Monday",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "buy milk",
+        "datetime": "Monday",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Create a medium priority task for Eve to fix bug",
+    "target": {
+      "function": "create_task",
+      "args": {
+        "title": "Fix bug",
+        "assignee": "Eve",
+        "due_date": "next week",
+        "priority": "medium"
+      }
+    }
+  },
+  {
+    "command": "Find pdf files related to report",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "report",
+        "file_type": "pdf",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Find docx files related to invoice",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "invoice",
+        "file_type": "docx",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Create a medium priority task for Bob to deploy app",
+    "target": {
+      "function": "create_task",
+      "args": {
+        "title": "Deploy app",
+        "assignee": "Bob",
+        "due_date": "next week",
+        "priority": "medium"
+      }
+    }
+  },
+  {
+    "command": "Remind me to pay bills Monday",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "pay bills",
+        "datetime": "Monday",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Create a high priority task for Eve to fix bug",
+    "target": {
+      "function": "create_task",
+      "args": {
+        "title": "Fix bug",
+        "assignee": "Eve",
+        "due_date": "next week",
+        "priority": "high"
+      }
+    }
+  },
+  {
+    "command": "Send an email to David about Update",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "david@example.com",
+        "subject": "Update",
+        "body": "Hi David, here is the information about Update.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Create a medium priority task for Eve to deploy app",
+    "target": {
+      "function": "create_task",
+      "args": {
+        "title": "Deploy app",
+        "assignee": "Eve",
+        "due_date": "next week",
+        "priority": "medium"
+      }
+    }
+  },
+  {
+    "command": "Remind me to pay bills tomorrow",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "pay bills",
+        "datetime": "tomorrow",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Send an email to David about Meeting Notes",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "david@example.com",
+        "subject": "Meeting Notes",
+        "body": "Hi David, here is the information about Meeting Notes.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Find pdf files related to invoice",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "invoice",
+        "file_type": "pdf",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Schedule a Client Call with Frank on Monday at 3:30 PM",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "Client Call",
+        "attendees": [
+          "Frank"
+        ],
+        "date": "Monday",
+        "time": "3:30 PM",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Schedule a Team Standup with David on Monday at 1:00 PM",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "Team Standup",
+        "attendees": [
+          "David"
+        ],
+        "date": "Monday",
+        "time": "1:00 PM",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Find pdf files related to presentation",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "presentation",
+        "file_type": "pdf",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Create a high priority task for Bob to deploy app",
+    "target": {
+      "function": "create_task",
+      "args": {
+        "title": "Deploy app",
+        "assignee": "Bob",
+        "due_date": "next week",
+        "priority": "high"
+      }
+    }
+  },
+  {
+    "command": "Schedule a 1:1 Review with David on next week at 9:00 AM",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "1:1 Review",
+        "attendees": [
+          "David"
+        ],
+        "date": "next week",
+        "time": "9:00 AM",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Find docx files related to invoice",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "invoice",
+        "file_type": "docx",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Send an email to Bob about Report",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "bob@example.com",
+        "subject": "Report",
+        "body": "Hi Bob, here is the information about Report.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Schedule a Team Standup with Charlie on tomorrow at 1:00 PM",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "Team Standup",
+        "attendees": [
+          "Charlie"
+        ],
+        "date": "tomorrow",
+        "time": "1:00 PM",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Remind me to buy milk Wednesday",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "buy milk",
+        "datetime": "Wednesday",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Send an email to Bob about Welcome",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "bob@example.com",
+        "subject": "Welcome",
+        "body": "Hi Bob, here is the information about Welcome.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Create a medium priority task for Eve to deploy app",
+    "target": {
+      "function": "create_task",
+      "args": {
+        "title": "Deploy app",
+        "assignee": "Eve",
+        "due_date": "next week",
+        "priority": "medium"
+      }
+    }
+  },
+  {
+    "command": "Send an email to Bob about Report",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "bob@example.com",
+        "subject": "Report",
+        "body": "Hi Bob, here is the information about Report.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Send an email to David about Report",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "david@example.com",
+        "subject": "Report",
+        "body": "Hi David, here is the information about Report.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Create a low priority task for Bob to review pr",
+    "target": {
+      "function": "create_task",
+      "args": {
+        "title": "Review PR",
+        "assignee": "Bob",
+        "due_date": "next week",
+        "priority": "low"
+      }
+    }
+  },
+  {
+    "command": "Find xlsx files related to budget",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "budget",
+        "file_type": "xlsx",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Schedule a Client Call with Alice on Friday at 1:00 PM",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "Client Call",
+        "attendees": [
+          "Alice"
+        ],
+        "date": "Friday",
+        "time": "1:00 PM",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Schedule a Brainstorming with Bob on Wednesday at 3:30 PM",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "Brainstorming",
+        "attendees": [
+          "Bob"
+        ],
+        "date": "Wednesday",
+        "time": "3:30 PM",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Remind me to submit report Wednesday",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "submit report",
+        "datetime": "Wednesday",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Schedule a Brainstorming with David on Wednesday at noon",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "Brainstorming",
+        "attendees": [
+          "David"
+        ],
+        "date": "Wednesday",
+        "time": "noon",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Send an email to Charlie about Invoice",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "charlie@example.com",
+        "subject": "Invoice",
+        "body": "Hi Charlie, here is the information about Invoice.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Schedule a Client Call with Eve on next week at 10:00 AM",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "Client Call",
+        "attendees": [
+          "Eve"
+        ],
+        "date": "next week",
+        "time": "10:00 AM",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Remind me to call mom Wednesday",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "call mom",
+        "datetime": "Wednesday",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Create a high priority task for David to review pr",
+    "target": {
+      "function": "create_task",
+      "args": {
+        "title": "Review PR",
+        "assignee": "David",
+        "due_date": "next week",
+        "priority": "high"
+      }
+    }
+  },
+  {
+    "command": "Remind me to call mom Wednesday",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "call mom",
+        "datetime": "Wednesday",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Create a low priority task for Bob to review pr",
+    "target": {
+      "function": "create_task",
+      "args": {
+        "title": "Review PR",
+        "assignee": "Bob",
+        "due_date": "next week",
+        "priority": "low"
+      }
+    }
+  },
+  {
+    "command": "Send an email to Frank about Update",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "frank@example.com",
+        "subject": "Update",
+        "body": "Hi Frank, here is the information about Update.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Create a low priority task for Frank to write docs",
+    "target": {
+      "function": "create_task",
+      "args": {
+        "title": "Write docs",
+        "assignee": "Frank",
+        "due_date": "next week",
+        "priority": "low"
+      }
+    }
+  },
+  {
+    "command": "Remind me to pay bills Monday",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "pay bills",
+        "datetime": "Monday",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Create a high priority task for Frank to review pr",
+    "target": {
+      "function": "create_task",
+      "args": {
+        "title": "Review PR",
+        "assignee": "Frank",
+        "due_date": "next week",
+        "priority": "high"
+      }
+    }
+  },
+  {
+    "command": "Schedule a Brainstorming with Charlie on tomorrow at 3:30 PM",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "Brainstorming",
+        "attendees": [
+          "Charlie"
+        ],
+        "date": "tomorrow",
+        "time": "3:30 PM",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Send an email to Eve about Invoice",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "eve@example.com",
+        "subject": "Invoice",
+        "body": "Hi Eve, here is the information about Invoice.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Create a low priority task for Alice to fix bug",
+    "target": {
+      "function": "create_task",
+      "args": {
+        "title": "Fix bug",
+        "assignee": "Alice",
+        "due_date": "next week",
+        "priority": "low"
+      }
+    }
+  },
+  {
+    "command": "Send an email to Frank about Update",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "frank@example.com",
+        "subject": "Update",
+        "body": "Hi Frank, here is the information about Update.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Find pdf files related to presentation",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "presentation",
+        "file_type": "pdf",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Create a high priority task for Alice to fix bug",
+    "target": {
+      "function": "create_task",
+      "args": {
+        "title": "Fix bug",
+        "assignee": "Alice",
+        "due_date": "next week",
+        "priority": "high"
+      }
+    }
+  },
+  {
+    "command": "Remind me to pay bills Friday",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "pay bills",
+        "datetime": "Friday",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Schedule a Client Call with Charlie on tomorrow at 1:00 PM",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "Client Call",
+        "attendees": [
+          "Charlie"
+        ],
+        "date": "tomorrow",
+        "time": "1:00 PM",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Create a medium priority task for David to write docs",
+    "target": {
+      "function": "create_task",
+      "args": {
+        "title": "Write docs",
+        "assignee": "David",
+        "due_date": "next week",
+        "priority": "medium"
+      }
+    }
+  },
+  {
+    "command": "Remind me to pay bills tomorrow",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "pay bills",
+        "datetime": "tomorrow",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Remind me to call mom Wednesday",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "call mom",
+        "datetime": "Wednesday",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Create a high priority task for Alice to write docs",
+    "target": {
+      "function": "create_task",
+      "args": {
+        "title": "Write docs",
+        "assignee": "Alice",
+        "due_date": "next week",
+        "priority": "high"
+      }
+    }
+  },
+  {
+    "command": "Create a low priority task for Bob to write docs",
+    "target": {
+      "function": "create_task",
+      "args": {
+        "title": "Write docs",
+        "assignee": "Bob",
+        "due_date": "next week",
+        "priority": "low"
+      }
+    }
+  },
+  {
+    "command": "Send an email to Charlie about Welcome",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "charlie@example.com",
+        "subject": "Welcome",
+        "body": "Hi Charlie, here is the information about Welcome.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Remind me to call mom Thursday",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "call mom",
+        "datetime": "Thursday",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Schedule a Team Standup with Frank on tomorrow at 9:00 AM",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "Team Standup",
+        "attendees": [
+          "Frank"
+        ],
+        "date": "tomorrow",
+        "time": "9:00 AM",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Find docx files related to presentation",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "presentation",
+        "file_type": "docx",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Find xlsx files related to presentation",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "presentation",
+        "file_type": "xlsx",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Remind me to submit report tomorrow",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "submit report",
+        "datetime": "tomorrow",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Send an email to David about Update",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "david@example.com",
+        "subject": "Update",
+        "body": "Hi David, here is the information about Update.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Schedule a 1:1 Review with Frank on tomorrow at noon",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "1:1 Review",
+        "attendees": [
+          "Frank"
+        ],
+        "date": "tomorrow",
+        "time": "noon",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Find docx files related to invoice",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "invoice",
+        "file_type": "docx",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Schedule a Project Sync with Charlie on next week at 3:30 PM",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "Project Sync",
+        "attendees": [
+          "Charlie"
+        ],
+        "date": "next week",
+        "time": "3:30 PM",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Create a low priority task for David to review pr",
+    "target": {
+      "function": "create_task",
+      "args": {
+        "title": "Review PR",
+        "assignee": "David",
+        "due_date": "next week",
+        "priority": "low"
+      }
+    }
+  },
+  {
+    "command": "Schedule a Brainstorming with Charlie on Friday at 1:00 PM",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "Brainstorming",
+        "attendees": [
+          "Charlie"
+        ],
+        "date": "Friday",
+        "time": "1:00 PM",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Send an email to Bob about Report",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "bob@example.com",
+        "subject": "Report",
+        "body": "Hi Bob, here is the information about Report.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Remind me to buy milk tomorrow",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "buy milk",
+        "datetime": "tomorrow",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Remind me to buy milk Thursday",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "buy milk",
+        "datetime": "Thursday",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Schedule a Client Call with Bob on Monday at 9:00 AM",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "Client Call",
+        "attendees": [
+          "Bob"
+        ],
+        "date": "Monday",
+        "time": "9:00 AM",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Schedule a Client Call with Eve on Tuesday at noon",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "Client Call",
+        "attendees": [
+          "Eve"
+        ],
+        "date": "Tuesday",
+        "time": "noon",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Find xlsx files related to presentation",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "presentation",
+        "file_type": "xlsx",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Create a low priority task for Charlie to deploy app",
+    "target": {
+      "function": "create_task",
+      "args": {
+        "title": "Deploy app",
+        "assignee": "Charlie",
+        "due_date": "next week",
+        "priority": "low"
+      }
+    }
+  },
+  {
+    "command": "Schedule a Client Call with Eve on tomorrow at 10:00 AM",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "Client Call",
+        "attendees": [
+          "Eve"
+        ],
+        "date": "tomorrow",
+        "time": "10:00 AM",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Create a medium priority task for Frank to review pr",
+    "target": {
+      "function": "create_task",
+      "args": {
+        "title": "Review PR",
+        "assignee": "Frank",
+        "due_date": "next week",
+        "priority": "medium"
+      }
+    }
+  },
+  {
+    "command": "Schedule a 1:1 Review with Alice on Thursday at 3:30 PM",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "1:1 Review",
+        "attendees": [
+          "Alice"
+        ],
+        "date": "Thursday",
+        "time": "3:30 PM",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Find pdf files related to invoice",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "invoice",
+        "file_type": "pdf",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Send an email to Charlie about Welcome",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "charlie@example.com",
+        "subject": "Welcome",
+        "body": "Hi Charlie, here is the information about Welcome.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Send an email to Alice about Report",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "alice@example.com",
+        "subject": "Report",
+        "body": "Hi Alice, here is the information about Report.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Remind me to call mom Tuesday",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "call mom",
+        "datetime": "Tuesday",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Create a low priority task for Charlie to review pr",
+    "target": {
+      "function": "create_task",
+      "args": {
+        "title": "Review PR",
+        "assignee": "Charlie",
+        "due_date": "next week",
+        "priority": "low"
+      }
+    }
+  },
+  {
+    "command": "Remind me to call mom Thursday",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "call mom",
+        "datetime": "Thursday",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Send an email to David about Update",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "david@example.com",
+        "subject": "Update",
+        "body": "Hi David, here is the information about Update.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Schedule a Client Call with Charlie on tomorrow at noon",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "Client Call",
+        "attendees": [
+          "Charlie"
+        ],
+        "date": "tomorrow",
+        "time": "noon",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Find xlsx files related to budget",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "budget",
+        "file_type": "xlsx",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Send an email to Bob about Meeting Notes",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "bob@example.com",
+        "subject": "Meeting Notes",
+        "body": "Hi Bob, here is the information about Meeting Notes.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Send an email to Charlie about Invoice",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "charlie@example.com",
+        "subject": "Invoice",
+        "body": "Hi Charlie, here is the information about Invoice.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Send an email to Bob about Report",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "bob@example.com",
+        "subject": "Report",
+        "body": "Hi Bob, here is the information about Report.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Find docx files related to budget",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "budget",
+        "file_type": "docx",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Find docx files related to budget",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "budget",
+        "file_type": "docx",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Find pdf files related to presentation",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "presentation",
+        "file_type": "pdf",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Schedule a Team Standup with Charlie on Friday at noon",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "Team Standup",
+        "attendees": [
+          "Charlie"
+        ],
+        "date": "Friday",
+        "time": "noon",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Find pdf files related to invoice",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "invoice",
+        "file_type": "pdf",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Schedule a Project Sync with Charlie on Tuesday at noon",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "Project Sync",
+        "attendees": [
+          "Charlie"
+        ],
+        "date": "Tuesday",
+        "time": "noon",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Send an email to Charlie about Meeting Notes",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "charlie@example.com",
+        "subject": "Meeting Notes",
+        "body": "Hi Charlie, here is the information about Meeting Notes.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Remind me to call mom Wednesday",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "call mom",
+        "datetime": "Wednesday",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Create a medium priority task for Charlie to review pr",
+    "target": {
+      "function": "create_task",
+      "args": {
+        "title": "Review PR",
+        "assignee": "Charlie",
+        "due_date": "next week",
+        "priority": "medium"
+      }
+    }
+  },
+  {
+    "command": "Find xlsx files related to report",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "report",
+        "file_type": "xlsx",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Schedule a 1:1 Review with Bob on Monday at 3:30 PM",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "1:1 Review",
+        "attendees": [
+          "Bob"
+        ],
+        "date": "Monday",
+        "time": "3:30 PM",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Find pdf files related to report",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "report",
+        "file_type": "pdf",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Find docx files related to budget",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "budget",
+        "file_type": "docx",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Remind me to buy milk Wednesday",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "buy milk",
+        "datetime": "Wednesday",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Create a high priority task for Bob to review pr",
+    "target": {
+      "function": "create_task",
+      "args": {
+        "title": "Review PR",
+        "assignee": "Bob",
+        "due_date": "next week",
+        "priority": "high"
+      }
+    }
+  },
+  {
+    "command": "Find pdf files related to report",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "report",
+        "file_type": "pdf",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Create a medium priority task for David to fix bug",
+    "target": {
+      "function": "create_task",
+      "args": {
+        "title": "Fix bug",
+        "assignee": "David",
+        "due_date": "next week",
+        "priority": "medium"
+      }
+    }
+  },
+  {
+    "command": "Send an email to Eve about Report",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "eve@example.com",
+        "subject": "Report",
+        "body": "Hi Eve, here is the information about Report.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Find docx files related to presentation",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "presentation",
+        "file_type": "docx",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Find xlsx files related to presentation",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "presentation",
+        "file_type": "xlsx",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Remind me to call mom Wednesday",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "call mom",
+        "datetime": "Wednesday",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Remind me to pay bills next week",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "pay bills",
+        "datetime": "next week",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Create a low priority task for Frank to write docs",
+    "target": {
+      "function": "create_task",
+      "args": {
+        "title": "Write docs",
+        "assignee": "Frank",
+        "due_date": "next week",
+        "priority": "low"
+      }
+    }
+  },
+  {
+    "command": "Send an email to Frank about Invoice",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "frank@example.com",
+        "subject": "Invoice",
+        "body": "Hi Frank, here is the information about Invoice.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Schedule a Project Sync with David on next week at 9:00 AM",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "Project Sync",
+        "attendees": [
+          "David"
+        ],
+        "date": "next week",
+        "time": "9:00 AM",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Remind me to buy milk Monday",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "buy milk",
+        "datetime": "Monday",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Create a medium priority task for Frank to fix bug",
+    "target": {
+      "function": "create_task",
+      "args": {
+        "title": "Fix bug",
+        "assignee": "Frank",
+        "due_date": "next week",
+        "priority": "medium"
+      }
+    }
+  },
+  {
+    "command": "Schedule a Team Standup with Alice on Thursday at noon",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "Team Standup",
+        "attendees": [
+          "Alice"
+        ],
+        "date": "Thursday",
+        "time": "noon",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Send an email to David about Meeting Notes",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "david@example.com",
+        "subject": "Meeting Notes",
+        "body": "Hi David, here is the information about Meeting Notes.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Schedule a Brainstorming with David on tomorrow at noon",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "Brainstorming",
+        "attendees": [
+          "David"
+        ],
+        "date": "tomorrow",
+        "time": "noon",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Remind me to buy milk Wednesday",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "buy milk",
+        "datetime": "Wednesday",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Schedule a Client Call with Charlie on tomorrow at noon",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "Client Call",
+        "attendees": [
+          "Charlie"
+        ],
+        "date": "tomorrow",
+        "time": "noon",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Create a medium priority task for Frank to fix bug",
+    "target": {
+      "function": "create_task",
+      "args": {
+        "title": "Fix bug",
+        "assignee": "Frank",
+        "due_date": "next week",
+        "priority": "medium"
+      }
+    }
+  },
+  {
+    "command": "Send an email to Alice about Update",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "alice@example.com",
+        "subject": "Update",
+        "body": "Hi Alice, here is the information about Update.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Create a medium priority task for Frank to review pr",
+    "target": {
+      "function": "create_task",
+      "args": {
+        "title": "Review PR",
+        "assignee": "Frank",
+        "due_date": "next week",
+        "priority": "medium"
+      }
+    }
+  },
+  {
+    "command": "Send an email to Alice about Invoice",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "alice@example.com",
+        "subject": "Invoice",
+        "body": "Hi Alice, here is the information about Invoice.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Create a low priority task for David to review pr",
+    "target": {
+      "function": "create_task",
+      "args": {
+        "title": "Review PR",
+        "assignee": "David",
+        "due_date": "next week",
+        "priority": "low"
+      }
+    }
+  },
+  {
+    "command": "Schedule a Client Call with Frank on Thursday at noon",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "Client Call",
+        "attendees": [
+          "Frank"
+        ],
+        "date": "Thursday",
+        "time": "noon",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Remind me to call mom Wednesday",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "call mom",
+        "datetime": "Wednesday",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Remind me to buy milk Tuesday",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "buy milk",
+        "datetime": "Tuesday",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Create a high priority task for Alice to review pr",
+    "target": {
+      "function": "create_task",
+      "args": {
+        "title": "Review PR",
+        "assignee": "Alice",
+        "due_date": "next week",
+        "priority": "high"
+      }
+    }
+  },
+  {
+    "command": "Remind me to submit report next week",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "submit report",
+        "datetime": "next week",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Remind me to pay bills next week",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "pay bills",
+        "datetime": "next week",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Schedule a 1:1 Review with Bob on Tuesday at 3:30 PM",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "1:1 Review",
+        "attendees": [
+          "Bob"
+        ],
+        "date": "Tuesday",
+        "time": "3:30 PM",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Schedule a Brainstorming with David on Friday at noon",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "Brainstorming",
+        "attendees": [
+          "David"
+        ],
+        "date": "Friday",
+        "time": "noon",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Schedule a Project Sync with Bob on Thursday at 10:00 AM",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "Project Sync",
+        "attendees": [
+          "Bob"
+        ],
+        "date": "Thursday",
+        "time": "10:00 AM",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Send an email to Eve about Meeting Notes",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "eve@example.com",
+        "subject": "Meeting Notes",
+        "body": "Hi Eve, here is the information about Meeting Notes.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Send an email to Charlie about Invoice",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "charlie@example.com",
+        "subject": "Invoice",
+        "body": "Hi Charlie, here is the information about Invoice.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Create a low priority task for Eve to write docs",
+    "target": {
+      "function": "create_task",
+      "args": {
+        "title": "Write docs",
+        "assignee": "Eve",
+        "due_date": "next week",
+        "priority": "low"
+      }
+    }
+  },
+  {
+    "command": "Remind me to call mom tomorrow",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "call mom",
+        "datetime": "tomorrow",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Remind me to buy milk Wednesday",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "buy milk",
+        "datetime": "Wednesday",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Send an email to David about Welcome",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "david@example.com",
+        "subject": "Welcome",
+        "body": "Hi David, here is the information about Welcome.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Remind me to call mom Monday",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "call mom",
+        "datetime": "Monday",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Schedule a 1:1 Review with Alice on Monday at 9:00 AM",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "1:1 Review",
+        "attendees": [
+          "Alice"
+        ],
+        "date": "Monday",
+        "time": "9:00 AM",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Find docx files related to budget",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "budget",
+        "file_type": "docx",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Remind me to buy milk Wednesday",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "buy milk",
+        "datetime": "Wednesday",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Remind me to call mom Tuesday",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "call mom",
+        "datetime": "Tuesday",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Schedule a Brainstorming with Charlie on tomorrow at 1:00 PM",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "Brainstorming",
+        "attendees": [
+          "Charlie"
+        ],
+        "date": "tomorrow",
+        "time": "1:00 PM",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Schedule a Client Call with Eve on Thursday at 10:00 AM",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "Client Call",
+        "attendees": [
+          "Eve"
+        ],
+        "date": "Thursday",
+        "time": "10:00 AM",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Remind me to buy milk Tuesday",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "buy milk",
+        "datetime": "Tuesday",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Send an email to Bob about Report",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "bob@example.com",
+        "subject": "Report",
+        "body": "Hi Bob, here is the information about Report.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Send an email to Frank about Report",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "frank@example.com",
+        "subject": "Report",
+        "body": "Hi Frank, here is the information about Report.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Send an email to Charlie about Invoice",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "charlie@example.com",
+        "subject": "Invoice",
+        "body": "Hi Charlie, here is the information about Invoice.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Schedule a Team Standup with Eve on tomorrow at 10:00 AM",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "Team Standup",
+        "attendees": [
+          "Eve"
+        ],
+        "date": "tomorrow",
+        "time": "10:00 AM",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Schedule a Project Sync with Eve on next week at 3:30 PM",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "Project Sync",
+        "attendees": [
+          "Eve"
+        ],
+        "date": "next week",
+        "time": "3:30 PM",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Create a low priority task for Bob to review pr",
+    "target": {
+      "function": "create_task",
+      "args": {
+        "title": "Review PR",
+        "assignee": "Bob",
+        "due_date": "next week",
+        "priority": "low"
+      }
+    }
+  },
+  {
+    "command": "Remind me to call mom tomorrow",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "call mom",
+        "datetime": "tomorrow",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Remind me to submit report Friday",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "submit report",
+        "datetime": "Friday",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Find pdf files related to invoice",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "invoice",
+        "file_type": "pdf",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Find pdf files related to presentation",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "presentation",
+        "file_type": "pdf",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Create a low priority task for David to deploy app",
+    "target": {
+      "function": "create_task",
+      "args": {
+        "title": "Deploy app",
+        "assignee": "David",
+        "due_date": "next week",
+        "priority": "low"
+      }
+    }
+  },
+  {
+    "command": "Remind me to buy milk next week",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "buy milk",
+        "datetime": "next week",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Schedule a Client Call with Alice on next week at 9:00 AM",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "Client Call",
+        "attendees": [
+          "Alice"
+        ],
+        "date": "next week",
+        "time": "9:00 AM",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Remind me to submit report Tuesday",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "submit report",
+        "datetime": "Tuesday",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Send an email to Bob about Meeting Notes",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "bob@example.com",
+        "subject": "Meeting Notes",
+        "body": "Hi Bob, here is the information about Meeting Notes.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Send an email to Eve about Report",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "eve@example.com",
+        "subject": "Report",
+        "body": "Hi Eve, here is the information about Report.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Create a low priority task for Alice to review pr",
+    "target": {
+      "function": "create_task",
+      "args": {
+        "title": "Review PR",
+        "assignee": "Alice",
+        "due_date": "next week",
+        "priority": "low"
+      }
+    }
+  },
+  {
+    "command": "Create a medium priority task for Charlie to review pr",
+    "target": {
+      "function": "create_task",
+      "args": {
+        "title": "Review PR",
+        "assignee": "Charlie",
+        "due_date": "next week",
+        "priority": "medium"
+      }
+    }
+  },
+  {
+    "command": "Find pdf files related to budget",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "budget",
+        "file_type": "pdf",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Send an email to Eve about Report",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "eve@example.com",
+        "subject": "Report",
+        "body": "Hi Eve, here is the information about Report.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Create a medium priority task for David to review pr",
+    "target": {
+      "function": "create_task",
+      "args": {
+        "title": "Review PR",
+        "assignee": "David",
+        "due_date": "next week",
+        "priority": "medium"
+      }
+    }
+  },
+  {
+    "command": "Send an email to Bob about Report",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "bob@example.com",
+        "subject": "Report",
+        "body": "Hi Bob, here is the information about Report.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Send an email to David about Update",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "david@example.com",
+        "subject": "Update",
+        "body": "Hi David, here is the information about Update.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Find xlsx files related to presentation",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "presentation",
+        "file_type": "xlsx",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Send an email to David about Invoice",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "david@example.com",
+        "subject": "Invoice",
+        "body": "Hi David, here is the information about Invoice.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Create a medium priority task for Eve to write docs",
+    "target": {
+      "function": "create_task",
+      "args": {
+        "title": "Write docs",
+        "assignee": "Eve",
+        "due_date": "next week",
+        "priority": "medium"
+      }
+    }
+  },
+  {
+    "command": "Create a low priority task for Alice to review pr",
+    "target": {
+      "function": "create_task",
+      "args": {
+        "title": "Review PR",
+        "assignee": "Alice",
+        "due_date": "next week",
+        "priority": "low"
+      }
+    }
+  },
+  {
+    "command": "Find pdf files related to report",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "report",
+        "file_type": "pdf",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Schedule a Client Call with Eve on Thursday at 10:00 AM",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "Client Call",
+        "attendees": [
+          "Eve"
+        ],
+        "date": "Thursday",
+        "time": "10:00 AM",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Create a low priority task for David to fix bug",
+    "target": {
+      "function": "create_task",
+      "args": {
+        "title": "Fix bug",
+        "assignee": "David",
+        "due_date": "next week",
+        "priority": "low"
+      }
+    }
+  },
+  {
+    "command": "Find pdf files related to presentation",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "presentation",
+        "file_type": "pdf",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Schedule a Team Standup with Charlie on Thursday at 3:30 PM",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "Team Standup",
+        "attendees": [
+          "Charlie"
+        ],
+        "date": "Thursday",
+        "time": "3:30 PM",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Create a medium priority task for Frank to deploy app",
+    "target": {
+      "function": "create_task",
+      "args": {
+        "title": "Deploy app",
+        "assignee": "Frank",
+        "due_date": "next week",
+        "priority": "medium"
+      }
+    }
+  },
+  {
+    "command": "Create a low priority task for Alice to fix bug",
+    "target": {
+      "function": "create_task",
+      "args": {
+        "title": "Fix bug",
+        "assignee": "Alice",
+        "due_date": "next week",
+        "priority": "low"
+      }
+    }
+  },
+  {
+    "command": "Find xlsx files related to invoice",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "invoice",
+        "file_type": "xlsx",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Remind me to submit report Friday",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "submit report",
+        "datetime": "Friday",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Find docx files related to budget",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "budget",
+        "file_type": "docx",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Send an email to Frank about Welcome",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "frank@example.com",
+        "subject": "Welcome",
+        "body": "Hi Frank, here is the information about Welcome.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Find pdf files related to invoice",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "invoice",
+        "file_type": "pdf",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Schedule a 1:1 Review with Alice on Tuesday at noon",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "1:1 Review",
+        "attendees": [
+          "Alice"
+        ],
+        "date": "Tuesday",
+        "time": "noon",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Remind me to pay bills tomorrow",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "pay bills",
+        "datetime": "tomorrow",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Find xlsx files related to presentation",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "presentation",
+        "file_type": "xlsx",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Create a low priority task for Eve to review pr",
+    "target": {
+      "function": "create_task",
+      "args": {
+        "title": "Review PR",
+        "assignee": "Eve",
+        "due_date": "next week",
+        "priority": "low"
+      }
+    }
+  },
+  {
+    "command": "Find docx files related to report",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "report",
+        "file_type": "docx",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Remind me to submit report Friday",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "submit report",
+        "datetime": "Friday",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Find docx files related to presentation",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "presentation",
+        "file_type": "docx",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Find pdf files related to presentation",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "presentation",
+        "file_type": "pdf",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Remind me to call mom tomorrow",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "call mom",
+        "datetime": "tomorrow",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Send an email to Charlie about Invoice",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "charlie@example.com",
+        "subject": "Invoice",
+        "body": "Hi Charlie, here is the information about Invoice.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Create a medium priority task for Eve to deploy app",
+    "target": {
+      "function": "create_task",
+      "args": {
+        "title": "Deploy app",
+        "assignee": "Eve",
+        "due_date": "next week",
+        "priority": "medium"
+      }
+    }
+  },
+  {
+    "command": "Schedule a Project Sync with Charlie on tomorrow at noon",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "Project Sync",
+        "attendees": [
+          "Charlie"
+        ],
+        "date": "tomorrow",
+        "time": "noon",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Remind me to pay bills Tuesday",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "pay bills",
+        "datetime": "Tuesday",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Find xlsx files related to presentation",
+    "target": {
+      "function": "search_files",
+      "args": {
+        "query": "presentation",
+        "file_type": "xlsx",
+        "date_range": "any"
+      }
+    }
+  },
+  {
+    "command": "Remind me to call mom tomorrow",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "call mom",
+        "datetime": "tomorrow",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Schedule a Brainstorming with Bob on tomorrow at 1:00 PM",
+    "target": {
+      "function": "schedule_meeting",
+      "args": {
+        "title": "Brainstorming",
+        "attendees": [
+          "Bob"
+        ],
+        "date": "tomorrow",
+        "time": "1:00 PM",
+        "duration_min": 30
+      }
+    }
+  },
+  {
+    "command": "Send an email to Alice about Meeting Notes",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "alice@example.com",
+        "subject": "Meeting Notes",
+        "body": "Hi Alice, here is the information about Meeting Notes.",
+        "cc": []
+      }
+    }
+  },
+  {
+    "command": "Remind me to call mom tomorrow",
+    "target": {
+      "function": "set_reminder",
+      "args": {
+        "message": "call mom",
+        "datetime": "tomorrow",
+        "repeat": "none"
+      }
+    }
+  },
+  {
+    "command": "Create a medium priority task for Eve to fix bug",
+    "target": {
+      "function": "create_task",
+      "args": {
+        "title": "Fix bug",
+        "assignee": "Eve",
+        "due_date": "next week",
+        "priority": "medium"
+      }
+    }
+  },
+  {
+    "command": "Send an email to Eve about Update",
+    "target": {
+      "function": "send_email",
+      "args": {
+        "to": "eve@example.com",
+        "subject": "Update",
+        "body": "Hi Eve, here is the information about Update.",
+        "cc": []
+      }
+    }
+  }
+]
